@@ -4,9 +4,13 @@ function converter() {
     const paraUnidade = document.getElementById('paraUnidade').value;
     const resultadoDiv = document.getElementById('resultado');
 
-    // Se o usuário não digitar nada, não faz o cálculo
+    // VALIDAÇÃO ATUALIZADA PARA O COMMIT 4 (Evita vazios e números negativos)
     if (isNaN(valor)) {
-        resultadoDiv.innerText = "Por favor, insira um número.";
+        resultadoDiv.innerText = "❌ Por favor, insira um número válido.";
+        return;
+    }
+    if (valor < 0) {
+        resultadoDiv.innerText = "❌ Não é possível converter comprimentos negativos.";
         return;
     }
 
