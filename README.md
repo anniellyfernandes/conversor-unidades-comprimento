@@ -5,7 +5,7 @@ Este projeto é uma ferramenta web simples e eficiente para a conversão de dife
 ## Integrantes do Grupo
 * **Annielly Fernandes** - GitHub: [@anniellyfernandes](https://github.com/anniellyfernandes)
 * **Brenda Ferreira** - GitHub: [@usuario_colega2](https://github.com/usuario_colega2)
-* **Laís Santos** - GitHub: [@usuario_colega3](https://github.com/usuario_colega3)
+* **Laís Santos** - GitHub: [@lais-santos0](https://github.com/lais-santos0)
 
 ## Histórico de Versões
 * **v1.0.0 (Atual):** Versão inicial com foco total na funcionalidade lógica, validações de entrada e estrutura HTML base, sem aplicação avançada de estilização (CSS).
