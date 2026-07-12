@@ -31,7 +31,7 @@ Este projeto é uma ferramenta web simples e eficiente para a conversão de dife
 Foco total na funcionalidade lógica, validações de entrada e estrutura HTML base, sem aplicação avançada de estilização.
 
 ** Imagem da Versão 1.0.0 (Layout Simples):**
-![Versão 1.0.0 - Sem CSS](https://github.com/user-attachments/assets/609b5755-7d34-46c8-be99-9800f86da97f")
+![Versão 1.0.0 - Sem CSS](https://github.com/user-attachments/assets/609b5755-7d34-46c8-be99-9800f86da97f)
 
 ---
 
