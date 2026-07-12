@@ -96,3 +96,46 @@ button:hover {
     text-align: center;
     min-height: 25px;
 }
+
+/* ===================================================
+   VERSÃO 3.0: MODO ESCURO AUTOMÁTICO (DARK MODE)
+   =================================================== */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #09090b; /* Fundo geral preto quase puro */
+        color: #f4f4f5; /* Texto principal cinza bem claro */
+    }
+
+    .card {
+        background-color: #18181b; /* Card vira cinza escuro */
+        border-color: #27272a; /* Borda do card mais discreta */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra ligeiramente mais forte para contraste */
+    }
+
+    label {
+        color: #9ca3af; /* Texto das labels cinza claro */
+    }
+
+    input, select {
+        background-color: #27272a; /* Fundo dos inputs cinza escuro */
+        color: #f4f4f5; /* Texto digitado cinza claro */
+        border-color: #3f3f46; /* Bordas dos inputs discretas */
+    }
+
+    input:focus, select:focus {
+        border-color: #f4f4f5; /* Foco muda para cinza claro/branco */
+    }
+
+    span {
+        color: #a1a1aa; /* O termo "para" fica em cinza médio */
+    }
+
+    button {
+        background-color: #ffffff; /* Botão inverte para Branco */
+        color: #09090b; /* Texto do botão vira Preto */
+    }
+
+    button:hover {
+        background-color: #e4e4e7; /* Efeito hover do botão com cinza claro */
+    }
+}
