@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f4f4f5; /* Cinza claro de fundo */
+    color: #18181b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* Branco puro */
+    width: 100%;
+    max-width: 420px;
+    padding: 35px;
+    border-radius: 12px; /* Cantos arredondados mais suaves */
+    border: 1px solid #e4e4e7; /* Borda cinza bem fina */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Sombra suave */
+    
+    /* Faz todos os elementos filhos ficarem em coluna perfeitamente */
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #3f3f46;
+}
+
+input, select {
+    background-color: #ffffff;
+    color: #18181b;
+    border: 1px solid #e4e4e7;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    width: 100%; /* Ocupa todo o espaço disponível do card */
+    transition: border-color 0.2s;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #18181b; /* Foco vira preto */
+}
+
+span {
+    font-size: 0.9rem;
+    color: #71717a; /* Cinza médio */
+    text-align: center;
+    margin: -5px 0 15px;
+    font-weight: 500;
+}
+
+button {
+    background-color: #18181b; /* Botão Preto */
+    color: #ffffff; /* Texto Branco */
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #27272a; /* Cinza escuro no hover */
+}
+
+#resultado {
+    margin-top: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    min-height: 25px;
+}
+
+/* Estilização das mensagens de resultado e erro */
