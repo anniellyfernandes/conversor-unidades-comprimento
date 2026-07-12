@@ -31,8 +31,7 @@ Este projeto é uma ferramenta web simples e eficiente para a conversão de dife
 Foco total na funcionalidade lógica, validações de entrada e estrutura HTML base, sem aplicação avançada de estilização.
 
 ** Imagem da Versão 1.0.0 (Layout Simples):**
-![Versão 1.0.0 - Sem CSS](<img width="644" height="462" alt="Captura de tela 2026-07-11 171549" src="https://github.com/user-attachments/assets/40c4df72-786b-481c-aea6-1807a0335cfe" />
-)
+![Versão 1.0.0 - Sem CSS](https://github.com/user-attachments/assets/609b5755-7d34-46c8-be99-9800f86da97f")
 
 ---
 
@@ -44,8 +43,7 @@ Implementação de uma interface visual moderna, responsiva e com foco em usabil
 * Centralização e destaque visual para o texto do resultado final.
 
 ** Imagem da Versão 2.0.0 (Com CSS):**
-![Versão 2.0.0 - Com CSS](<img width="614" height="541" alt="Captura de tela 2026-07-12 142338" src="https://github.com/user-attachments/assets/ce7bb138-84f9-44e7-8ffa-50abef9f18aa" />
-)
+![Versão 2.0.0 - Com CSS](https://github.com/user-attachments/assets/4accc557-a8ad-44eb-8f52-f4b4534f6414)
 
 ## Responsividade
 
