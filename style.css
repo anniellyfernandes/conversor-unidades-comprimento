@@ -7,15 +7,23 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background-color: #f4f4f5; /* Cinza claro de fundo */
-    color: #18181b; /* Preto/Cinza escuro para o texto */
+    color: #18181b;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
 }
 
+.card {
+    background-color: #ffffff; /* Branco puro */
+    width: 100%;
+    max-width: 400px;
+    padding: 35px;
+    border-radius: 8px; /* Cantos arredondados sutis */
+    border: 1px solid #e4e4e7; /* Borda cinza bem fina */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03); /* Sombra preta bem leve */
+}
 h1 {
     font-size: 1.8rem;
     font-weight: 700;
